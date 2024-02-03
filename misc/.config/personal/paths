@@ -1,5 +1,6 @@
+addToPathFront $CARGOPATH/bin
+
 addToPathFront $HOME/.local/bin
 addToPathFront $HOME/.local/scripts
 
 addToPath $GOPATH/bin
-addToPath $CARGOPATH/bin
