@@ -1,0 +1,7 @@
+screen:Main=PID USER PRIORITY NICE M_VIRT M_RESIDENT M_SHARE STATE PERCENT_CPU PERCENT_MEM TIME CCGROUP Command
+left_meters=LeftCPUs2 CPU Battery Blank Blank Blank Memory NetworkIO DiskIO
+left_meter_modes=1 1 1 2 2 2 3 4 4
+right_meters=RightCPUs2 Memory Swap Blank Blank Blank LoadAverage Uptime Tasks
+right_meter_modes=1 1 1 2 2 2 3 4 4
+delay=0.1
+tree_view=1
