@@ -154,6 +154,6 @@ bindsym --release Print exec maim --format=png /dev/stdout | xclip -selection cl
 bindsym --release Shift+Print exec maim -s --format=png /dev/stdout | xclip -selection clipboard -t image/png -i
 
 bindsym Control+Shift+1 exec setxkbmap -layout us
-bindsym Control+Shift+2 exec setxkbmap -layout cz
+bindsym Control+Shift+2 exec setxkbmap -layout cz -variant qwerty
 bindsym Control+Shift+3 exec setxkbmap -layout ua
 bindsym Control+Shift+4 exec setxkbmap -layout ru
