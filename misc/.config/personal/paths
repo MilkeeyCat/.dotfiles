@@ -1,4 +1,5 @@
 addToPathFront $CARGOPATH/bin
+addToPathFront $HOME/.npm-global/bin
 
 addToPathFront $HOME/.local/bin
 addToPathFront $HOME/.local/scripts
