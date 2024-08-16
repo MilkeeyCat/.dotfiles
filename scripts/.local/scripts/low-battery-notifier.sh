@@ -8,7 +8,7 @@ do
     capacity=$(cat "${bat_files}/capacity")
 
     if [[ ${bat_status} == "Discharging" && ${capacity} -le 20 ]]; then
-        notify-send -u critical "ACHTUUUUUUUUUUUUNG. LOW BATTERY!!!!"
+        notify-send -u critical 'ACHTUUUUUUUUUUUUNG. LOW BATTERY!!!!'
     fi
 
     sleep 30

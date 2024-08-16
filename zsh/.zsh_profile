@@ -4,6 +4,7 @@ PERSONAL=$XDG_CONFIG_HOME/personal
 
 export GOPATH=$HOME/go
 export CARGOPATH=$HOME/.cargo
+export GEM_HOME=$HOME/gems
 
 source $PERSONAL/env
 for i in `find -L $PERSONAL`; do
