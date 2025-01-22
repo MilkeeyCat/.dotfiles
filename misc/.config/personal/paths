@@ -6,5 +6,5 @@ addToPathFront $HOME/.local/scripts
 
 addToPath $GOPATH/bin
 
-addToPath $HOME/Downloads/go/bin
+addToPath /usr/local/go/bin
 addToPath $HOME/gems/bin
